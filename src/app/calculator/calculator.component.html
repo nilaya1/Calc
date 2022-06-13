@@ -1,0 +1,39 @@
+        <div class="main">
+            <form class="calculatorform" name="calculatorform">
+                <div class="input">
+                    <div class="input" type="text">{{input}}</div>
+                  </div>
+
+            <div class="btn">
+                <button class="num" type="button" (click)="pressNum('7')">7</button>
+                <button class="num" type="button" (click)="pressNum('8')">8</button>
+                <button class="num" type="button" (click)="pressNum('9')">9</button>
+                <button class="num" type="button" (click)="pressOperator('*')">*</button>
+            </div>
+
+            <div class="btn">
+                <button class="num" type="button" (click)="pressNum('4')">4</button>
+                <button class="num" type="button" (click)="pressNum('5')">5</button>
+                <button class="num" type="button" (click)="pressNum('6')">6</button>
+                <button class="num" type="button" (click)="pressOperator('-')">-</button>
+            </div>
+
+
+            <div class="btn">
+                <button class="num" type="button" (click)="pressNum('1')">1</button>
+                <button class="num" type="button" (click)="pressNum('2')">2</button>
+                <button class="num" type="button" (click)="pressNum('3')">3</button>
+                <button class="num" type="button" (click)="pressOperator('+')">+</button>
+            </div>
+
+
+            <div class="btn">
+                <button class="num" type="button" (click)="clear()">C</button>
+                <button class="num" type="button" (click)="pressNum('0')">0</button>
+                <button class="num" type="button" (click)="pressOperator('/')">/</button>
+                <button class="num" type="button" (click)="Calculate()">=</button>
+            </div>
+            </form>
+        </div>
+        
+    
